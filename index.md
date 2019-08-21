@@ -674,25 +674,22 @@ please preview your site before committing, and make sure to run
     <div class="tab-content">
       <article role="tabpanel" class="tab-pane active" id="sql-windows">
         <p>
-          <ul>
-            <li>Run git-bash from the start menu</li>
-            <li>Copy the following <code>curl {{site.url}}{{site.baseurl}}/getsql.sh | bash</code></li>
-            <li>Paste it into the window that git bash opened. If you're unsure, ask an instructor for help</li>
-            <li>You should see something like <code>3.27.2 2019-02-25 16:06:06 ...</code></li>
-          </ul>
-            
-          <p>If you want to do this manually, download <a href="https://www.sqlite.org/2019/sqlite-tools-win32-x86-3270200.zip">sqlite3</a>, make a bin directory in the user's home directory, unzip sqlite3, move it into the bin directory, and then add the bin directory to the path.</p>
+          <p><a href="https://download.sqlitebrowser.org/SQLiteDatabaseBrowserPortable_3.11.2_English.paf.exe">Download  DB Browser for SQLite - Portable App</a>, and run, "install" into "Antarctica-database" directory on your desktop.</p>
+          <p><a href="https://swcarpentry.github.io/sql-novice-survey/files/survey.db">Download survey.db into the same directory.</a></p>
 
         </p>
       </article>
       <article role="tabpanel" class="tab-pane active" id="sql-macos">
         <p>
-          SQLite comes pre-installed on macOS.
+          
+ <p><a href="https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.2.dmg">Download and install the DB Browser for SQLite</a></p>
+ <p><a href="https://swcarpentry.github.io/sql-novice-survey/files/survey.db">Download survey.db into a directory on your desktop called "Antarctica-database".</a></p>
         </p>
       </article>
       <article role="tabpanel" class="tab-pane active" id="sql-linux">
         <p>
-          SQLite comes pre-installed on Linux.
+          <p>Run <pre>sudo apt install sqlitebrowser</pre>. </p>
+          <p><a href="https://swcarpentry.github.io/sql-novice-survey/files/survey.db">Download survey.db into a directory on your desktop called "Antarctica-database".</a></p>
         </p>
       </article>
       <article role="tabpanel" class="tab-pane active" id="sql-web">
